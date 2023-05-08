@@ -1,0 +1,123 @@
+.card-item{
+    display: flex;
+    justify-content: center;
+    gap: 6rem;
+    flex-wrap: wrap;
+
+    
+
+}
+.card{
+    margin-top: 1rem;
+    text-align: center;
+    background-image: linear-gradient(to right,rgb(238, 125, 208) , rgb(226, 222, 104));
+    padding: 0.6rem;
+   
+}
+.card > h1 {
+    color: #fff;
+    font-size: 3rem;
+    letter-spacing: 0.3rem;
+}
+.cards{
+    width: 250px;
+    background-color: aliceblue;
+    height: 320px;
+    padding: 1rem;
+    border-top-right-radius: 20%;
+    border-bottom-left-radius: 20%;
+    cursor: pointer;
+}
+
+.card-img{
+    width: 250px;
+    height: 220px;
+    border-top-right-radius: 20%;
+    border-bottom-left-radius: 20%;
+
+}
+.card-img img{
+    width:100%;
+    height: 100%;
+    border-top-right-radius: 20%;
+   
+}
+
+.title{
+    font-weight: bold;;
+}
+
+.btn-order{
+    margin-top: 3rem;
+    margin-bottom: 6rem;
+}
+.btn{
+    padding: 1rem;
+    width: 150px;
+    border-radius: 25px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    color:black;
+    font-size: 1.3rem;
+    background-color: rgb(228, 222, 222,0.4);
+}
+
+
+
+@media only screen and (max-width: 768px) {
+    .card-item{
+        display: block;
+        margin-left:3rem        
+    
+    }
+    .card > h1 {
+        color: #fff;
+        font-size: 2rem;
+        letter-spacing: 0.3rem;
+    }
+    .cards{
+        width: 250px;
+        background-color: aliceblue;
+        height: 320px;
+        padding: 1rem;
+        border-top-right-radius: 20%;
+        border-bottom-left-radius: 20%;
+        cursor: pointer;
+        margin-bottom: 1.5rem;
+        margin-left: 15%;
+    }
+
+
+    
+  }
+
+
+
+@media only screen and (max-width: 600px) {
+    .card-item{
+        display: block;
+            
+    
+    }
+    .card > h1 {
+        color: #fff;
+        font-size: 2rem;
+        letter-spacing: 0.3rem;
+    }
+    .cards{
+        width: 250px;
+        background-color: aliceblue;
+        height: 320px;
+        padding: 1rem;
+        border-top-right-radius: 20%;
+        border-bottom-left-radius: 20%;
+        cursor: pointer;
+        margin-bottom: 1.5rem;
+        margin-left: 15%;
+    }
+
+
+    
+  }
+  
